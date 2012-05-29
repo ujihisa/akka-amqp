@@ -1,9 +1,8 @@
-resolvers += "sbt-idea-repo" at "http://mpeltonen.github.com/maven/" 
+sbtPlugin := true
 
-resolvers += "sbt-release-repo" at "http://gseitz.github.com/maven/"
+resolvers += Classpaths.typesafeResolver
 
-// See: https://github.com/mpeltonen/sbt-idea/tree/sbt-0.10
-// Provides the `gen-idea` command to sync the IDEA project structure.
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.0.0")
 
-addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "0.11.0")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.8.1")
  

@@ -1,7 +1,9 @@
-.idea
-.idea_modules
-project/boot
-project/target
-target
-
-.history
+.cache
+.classpath
+.project
+.settings/
+.target/
+lib/
+project/target/
+project/project/
+target/
