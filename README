@@ -1,0 +1,17 @@
+
+AKKA-AMQP
+
+A forked project from https://github.com/momania/akka-amqp
+
+No logic changes are done on this fork.
+All code changes involve reformatting, and cleaning up <- and => characters.
+
+There were some configuration changes to get the project to compile and package.
+
+Note that some tests still fail. This fork does not resolve those issues.
+However, for performing basic AMQP functions, this build does work quite well.
+
+You need to be using SBT 0.11.2 as 0.11.3 does not work with this Build.scala configuration.
+
+To build your own jar 
+sbt-0.11.2 package
