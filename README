@@ -1,13 +1,13 @@
 
 AKKA-AMQP
 
-A forked project from https://github.com/momania/akka-amqp
+A forked project from https://github.com/momania/akka-amqp via https://github.com/geidsvig/akka-amqp
 Some configuration and testing tricks applied from https://github.com/kaesler/akka-amqp
 
 Works with
-"com.rabbitmq" % "amqp-client" % "2.8.2"
-"com.typesafe.akka" % "akka-actor" % "2.0.2"
-sbt 0.11.3
+"com.rabbitmq" % "amqp-client" % "3.2.1"
+"com.typesafe.akka" % "akka-actor" % "2.0.5"
+sbt 0.13.0
 
 No logic changes are done on this fork.
 All code changes involve reformatting, and cleaning up <- and => characters.

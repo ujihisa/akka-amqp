@@ -6,9 +6,9 @@ object build extends Build {
 
 	lazy val standardSettings = Defaults.defaultSettings ++ Seq(
 		resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/",
-		organization := "com.github.geidsvig",
-		version := "2.1.0",
-		scalaVersion := "2.9.2")
+		organization := "io.github.ujihisa",
+		version := "2.0.5",
+		scalaVersion := "2.9.3")
 
 	lazy val root = Project(
 		id = "akka-amqp",
